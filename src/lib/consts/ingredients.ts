@@ -4,81 +4,55 @@ export const ingredients = {
 		{ nazwa: 'Chleb graham', gramatura: 210 },
 		{ nazwa: 'Bułki grahamki', gramatura: 390 },
 		{ nazwa: 'Kajzerki', gramatura: 100 },
-		{ nazwa: 'Bułka żytnia', gramatura: 65 }
+		{ nazwa: 'Bułka żytnia', gramatura: 65 },
+		{ nazwa: 'Tortilla pszenna', gramatura: 60 }
 	],
-	Zbożowe: [
-		{ nazwa: 'Płatki owsiane', gramatura: 440 },
-		{ nazwa: 'Makaron Penne (rurki), Barilla', gramatura: 390 },
-		{ nazwa: 'Makaron spaghetti', gramatura: 250 },
-		{ nazwa: 'Kasza jęczmienna, pęczak', gramatura: 240 },
-		{ nazwa: 'Kasza jęczmienna, perłowa', gramatura: 120 },
-		{ nazwa: 'Komosa ryżowa (Quinoa), ziarna', gramatura: 190 },
-		{ nazwa: 'Tortilla pszenna', gramatura: 60 },
-		{ nazwa: 'Kasza jaglana', gramatura: 50 },
-		{ nazwa: 'Ryż biały', gramatura: 60 },
-		{ nazwa: 'Bułka tarta', gramatura: 60 },
-		{ nazwa: 'Mąka pszenna, typ 500', gramatura: 10 },
-		{ nazwa: 'Płatki kukurydziane', gramatura: 3 }
-	],
-	Nabiał: [
-		{ nazwa: 'Jogurt typu islandzkiego (Skyr)', gramatura: 900 },
-		{ nazwa: 'Jaja kurze całe', gramatura: 1064 },
-		{ nazwa: 'Jogurt naturalny, 2% tłuszczu', gramatura: 1100 },
-		{ nazwa: 'Ser twarogowy chudy', gramatura: 250 },
-		{ nazwa: 'Ser twarogowy półtłusty', gramatura: 100 },
-		{ nazwa: 'Śmietana, 12% tłuszczu', gramatura: 400 },
-		{ nazwa: 'Mleko spożywcze, 1,5% tłuszczu', gramatura: 200 },
-		{ nazwa: 'Serek wiejski', gramatura: 200 },
-		{ nazwa: 'Serek wiejski lekki', gramatura: 400 },
-		{ nazwa: 'Skyr waniliowy, Piątnica', gramatura: 150 },
-		{ nazwa: 'Serek śmietankowy', gramatura: 262 },
-		{ nazwa: 'Ser Mozzarella light w kulce', gramatura: 250 },
-		{ nazwa: 'Twaróg klinek chudy, Delikate', gramatura: 125 },
-		{ nazwa: 'Ser, parmezan', gramatura: 76 },
-		{ nazwa: 'Ser typu "Feta", półtłusty 12%', gramatura: 40 }
-	],
-	Napoje: [{ nazwa: 'Kawa, napar bez cukru', gramatura: 400 }],
-	Tłuszcze: [{ nazwa: 'Oliwa z oliwek', gramatura: 220 }],
-	Ryby: [
-		{ nazwa: 'Tuńczyk w sosie własnym', gramatura: 340 },
-		{ nazwa: 'Łosoś, świeży', gramatura: 250 },
-		{ nazwa: 'Łosoś wędzony na zimno', gramatura: 150 }
+	'Orzechy i nasiona': [
+		{ nazwa: 'Nasiona chia', gramatura: 110 },
+		{ nazwa: 'Tahini', gramatura: 84 },
+		{ nazwa: 'Orzechy nerkowca (bez soli)', gramatura: 20 },
+		{ nazwa: 'Orzechy pekan', gramatura: 26 },
+		{ nazwa: 'Migdały w płatkach', gramatura: 24 },
+		{ nazwa: 'Wiórki kokosowe', gramatura: 24 },
+		{ nazwa: 'Orzechy włoskie', gramatura: 20 },
+		{ nazwa: 'Orzechy pistacjowe', gramatura: 27 },
+		{ nazwa: 'Sezam, nasiona', gramatura: 7.5 },
+		{ nazwa: 'Daktyle, suszone', gramatura: 10 },
+		{ nazwa: 'Rodzynki, suszone', gramatura: 15 }
 	],
 	'Owoce i warzywa': [
-		{ nazwa: 'Pomidory w puszce (krojone)', gramatura: 600 },
+		{ nazwa: 'Mango, mrożone', gramatura: 80 },
+		{ nazwa: 'Morele, suszone', gramatura: 40 },
+		{ nazwa: 'Maliny', gramatura: 100 },
+		{ nazwa: 'Brzoskwinia', gramatura: 85 },
+		{ nazwa: 'Mandarynki', gramatura: 260 },
+		{ nazwa: 'Kiwi', gramatura: 150 },
+		{ nazwa: 'Figi świeże', gramatura: 280 },
+		{ nazwa: 'Jabłko', gramatura: 150 },
+		{ nazwa: 'Borówki amerykańskie', gramatura: 400 },
 		{ nazwa: 'Banan', gramatura: 720 },
+		{ nazwa: 'Mango', gramatura: 560 },
+		{ nazwa: 'Pomidory w puszce (krojone)', gramatura: 600 },
 		{ nazwa: 'Pomidory koktajlowe', gramatura: 820 },
 		{ nazwa: 'Marchew', gramatura: 507 },
 		{ nazwa: 'Ziemniaki', gramatura: 490 },
 		{ nazwa: 'Passata pomidorowa (przecier)', gramatura: 250 },
-		{ nazwa: 'Mango', gramatura: 560 },
 		{ nazwa: 'Pomidor', gramatura: 400 },
 		{ nazwa: 'Szpinak', gramatura: 375 },
-		{ nazwa: 'Borówki amerykańskie', gramatura: 400 },
-		{ nazwa: 'Jabłko', gramatura: 150 },
 		{ nazwa: 'Awokado', gramatura: 490 },
-		{ nazwa: 'Figi świeże', gramatura: 280 },
-		{ nazwa: 'Kiwi', gramatura: 150 },
-		{ nazwa: 'Mandarynki', gramatura: 260 },
 		{ nazwa: 'Ogórek kwaszony', gramatura: 90 },
-		{ nazwa: 'Brzoskwinia', gramatura: 85 },
 		{ nazwa: 'Ogórek', gramatura: 470 },
 		{ nazwa: 'Papryka czerwona', gramatura: 75 },
 		{ nazwa: 'Cebula', gramatura: 90 },
-		{ nazwa: 'Maliny', gramatura: 100 },
 		{ nazwa: 'Sałata', gramatura: 105 },
-		{ nazwa: 'Mango, mrożone', gramatura: 80 },
 		{ nazwa: 'Pietruszka, liście', gramatura: 114 },
 		{ nazwa: 'Rzodkiewka', gramatura: 30 },
 		{ nazwa: 'Sałata lodowa', gramatura: 40 },
 		{ nazwa: 'Cebula czerwona', gramatura: 30 },
-		{ nazwa: 'Morele, suszone', gramatura: 40 },
 		{ nazwa: 'Rukola', gramatura: 20 },
 		{ nazwa: 'Suszone pomidory (w oleju z ziołami, odsączone)', gramatura: 30 },
-		{ nazwa: 'Rodzynki, suszone', gramatura: 15 },
 		{ nazwa: 'Szczypiorek', gramatura: 14.5 },
 		{ nazwa: 'Czosnek', gramatura: 22 },
-		{ nazwa: 'Daktyle, suszone', gramatura: 10 },
 		{ nazwa: 'Imbir', gramatura: 10 }
 	],
 	'Zioła i przyprawy': [
@@ -97,23 +71,55 @@ export const ingredients = {
 		{ nazwa: 'Imbir mielony', gramatura: 0.6 },
 		{ nazwa: 'Tymianek', gramatura: 0.4 }
 	],
+	'Produkty roślinne': [{ nazwa: 'Pesto bazyliowe (wegańskie), Vemondo', gramatura: 200 }],
+	Nabiał: [
+		{ nazwa: 'Szynka z indyka', gramatura: 270 },
+		{ nazwa: 'Jaja kurze całe', gramatura: 1064 },
+		{ nazwa: 'Serek wiejski', gramatura: 200 },
+		{ nazwa: 'Serek wiejski lekki', gramatura: 400 },
+		{ nazwa: 'Serek śmietankowy', gramatura: 262 },
+		{ nazwa: 'Ser Mozzarella light w kulce', gramatura: 250 },
+		{ nazwa: 'Ser, parmezan', gramatura: 76 },
+		{ nazwa: 'Ser typu "Feta", półtłusty 12%', gramatura: 40 },
+		{ nazwa: 'Skyr naturalny', gramatura: 900 },
+		{ nazwa: 'Skyr waniliowy, Piątnica', gramatura: 150 },
+		{ nazwa: 'Jogurt naturalny, 2% tłuszczu', gramatura: 1100 },
+		{ nazwa: 'Ser twarogowy chudy', gramatura: 250 },
+		{ nazwa: 'Ser twarogowy półtłusty', gramatura: 100 },
+		{ nazwa: 'Śmietana, 12% tłuszczu', gramatura: 400 },
+		{ nazwa: 'Mleko spożywcze, 1,5% tłuszczu', gramatura: 200 },
+		{ nazwa: 'Twaróg klinek chudy, Delikate', gramatura: 125 }
+	],
+	Słodycze: [
+		{ nazwa: 'Biszkopty okrągłe, Bonitki', gramatura: 80 },
+		{ nazwa: 'Baton Kinder Country', gramatura: 48 },
+		{ nazwa: 'Kakao 16%, proszek', gramatura: 40 },
+		{ nazwa: 'Czekolada gorzka 85%, fin Carre', gramatura: 40 },
+		{ nazwa: 'Miód pszczeli', gramatura: 12 }
+	],
 	Mięso: [
 		{ nazwa: 'Mięso z piersi kurczaka, bez skóry', gramatura: 1750 },
 		{ nazwa: 'Mięso z piersi indyka, bez skóry', gramatura: 700 },
 		{ nazwa: 'Mięso mielone z indyka', gramatura: 500 },
-		{ nazwa: 'Polędwica wieprzowa (surowa)', gramatura: 350 },
-		{ nazwa: 'Szynka z indyka', gramatura: 270 }
+		{ nazwa: 'Polędwica wieprzowa (surowa)', gramatura: 350 }
 	],
-	'Orzechy i nasiona': [
-		{ nazwa: 'Nasiona chia', gramatura: 110 },
-		{ nazwa: 'Tahini', gramatura: 84 },
-		{ nazwa: 'Orzechy nerkowca (bez soli)', gramatura: 20 },
-		{ nazwa: 'Orzechy pekan', gramatura: 26 },
-		{ nazwa: 'Migdały w płatkach', gramatura: 24 },
-		{ nazwa: 'Wiórki kokosowe', gramatura: 24 },
-		{ nazwa: 'Orzechy włoskie', gramatura: 20 },
-		{ nazwa: 'Orzechy pistacjowe', gramatura: 27 },
-		{ nazwa: 'Sezam, nasiona', gramatura: 7.5 }
+	Ryby: [
+		{ nazwa: 'Tuńczyk w sosie własnym', gramatura: 340 },
+		{ nazwa: 'Łosoś, świeży', gramatura: 250 },
+		{ nazwa: 'Łosoś wędzony na zimno', gramatura: 150 }
+	],
+	Zbożowe: [
+		{ nazwa: 'Płatki owsiane', gramatura: 440 },
+		{ nazwa: 'Makaron Penne (rurki), Barilla', gramatura: 390 },
+		{ nazwa: 'Makaron spaghetti', gramatura: 250 },
+		{ nazwa: 'Kasza jęczmienna, pęczak', gramatura: 240 },
+		{ nazwa: 'Kasza jęczmienna, perłowa', gramatura: 120 },
+		{ nazwa: 'Komosa ryżowa (Quinoa), ziarna', gramatura: 190 },
+		{ nazwa: 'Kasza jaglana', gramatura: 50 },
+		{ nazwa: 'Ryż biały', gramatura: 60 },
+		{ nazwa: 'Bułka tarta', gramatura: 60 },
+		{ nazwa: 'Mąka pszenna, typ 500', gramatura: 10 },
+		{ nazwa: 'Płatki kukurydziane', gramatura: 3 }
 	],
 	Pozostałe: [
 		{ nazwa: 'Napój migdałowy', gramatura: 1450 },
@@ -127,15 +133,9 @@ export const ingredients = {
 		{ nazwa: 'Sok z cytryny', gramatura: 24 },
 		{ nazwa: 'Proszek do pieczenia', gramatura: 0.1 }
 	],
-	'Produkty roślinne': [{ nazwa: 'Pesto bazyliowe (wegańskie), Vemondo', gramatura: 200 }],
+	Napoje: [{ nazwa: 'Kawa, napar bez cukru', gramatura: 400 }],
+	Tłuszcze: [{ nazwa: 'Oliwa z oliwek', gramatura: 220 }],
 	Suplementy: [
 		{ nazwa: 'Odżywka białkowa, Pro Whey Shake, smak czekoladowy, Olimp', gramatura: 95 }
-	],
-	Słodycze: [
-		{ nazwa: 'Biszkopty okrągłe, Bonitki', gramatura: 80 },
-		{ nazwa: 'Baton Kinder Country', gramatura: 48 },
-		{ nazwa: 'Kakao 16%, proszek', gramatura: 40 },
-		{ nazwa: 'Czekolada gorzka 85%, fin Carre', gramatura: 40 },
-		{ nazwa: 'Miód pszczeli', gramatura: 12 }
 	]
 };
